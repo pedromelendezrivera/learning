@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <style type="text/css">
+    input:valid, textarea:valid {
+  background:green;
+}
+input:invalid, textarea:invalid {
+  background:red;
+}
+    </style>
+    
+</head>
+<body>
+        
+<form name="formulario" method="post" action="http://pagina.com/send.php">
+  <!-- Nombre de usuario.
+       Campo obligatorio, entre 5-40 carácteres -->
+  Usuario: <input type="text" name="nombre" placeholder="Por ejemplo, Juan"
+                  minlength="5" maxlength="40" required>
+  <!-- Contraseña.
+       Campo obligatorio, mínimo 11 carácteres -->
+  Password: <input type="password" name="pass" placeholder="Contraseña"
+                  minlength="11" required>
+</form>
+</body>
+</html>
+    

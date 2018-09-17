@@ -1,0 +1,33 @@
+orientaciones git
+
+abrir git bach
+
+
+ git add .
+ git status
+
+ git commit -m "session 1 jsp"
+
+
+ git remote add origin https://github.com/pedromelendezrivera/learning.git
+ 
+ git remote add origin https://github.com/pedromelendezrivera/OracleObjects.git
+ 
+ git push -u origin master
+
+ git push -u origin master
+
+ 
+ 
+echo "# reportesconjava" >> README.md
+git init
+git add README.md
+
+ git add .
+ git status
+git commit -m "first commit"
+
+git remote add origin https://github.com/pedromelendezrivera/reportesconjava.git
+git push -u origin master
+
+
